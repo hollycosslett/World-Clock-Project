@@ -50,7 +50,7 @@ function updateCity(event) {
   </div>
 </div>
 <br/>
-<a href="index.html">All cities</a>
+<a href="index.html">Cities</a>
   `;
 }
 
