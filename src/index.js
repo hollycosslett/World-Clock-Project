@@ -33,6 +33,8 @@ function updateCity(event) {
     <div class="time"">${cityTime.format("HH:mm:ss")}</div>
   </div>
 </div>
+<br/>
+<a href="index.html">All cities</a>
   `;
 }
 
