@@ -12,6 +12,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: rgb(76, 76, 79);
   max-width: 600px;
   margin: 0 auto;
   margin-top: 50px;
@@ -30,22 +31,29 @@ select {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid rgb(122, 122, 127);
   box-shadow: 3px 3px 3px rgba(111, 110, 110, 0.5);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(122, 122, 127);
+  color: white;
   margin-bottom: 10px;
   font-size: 15px;
 }
 .paris-container,
-.los-angeles-container {
-  max-width: 100%;
-  justify-content: space-between;
+.los-angeles-container,
+.tokyo-container,
+.london-container {
   display: flex;
+  justify-content: space-between;
+  max-width: 100%;
   align-items: center;
   border-bottom: 0.3px solid rgb(199, 197, 197);
 }
+
+.tokyo-container {
+  border: none;
+}
 .city {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 15px;
@@ -62,9 +70,11 @@ select {
   font-size: 37px;
   font-weight: 500;
   padding: 20px;
-  margin-left: 20px;
+  margin-left: 45px;
 }
-
+a:visited {
+  color: rgb(0, 0, 0);
+}
 footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
