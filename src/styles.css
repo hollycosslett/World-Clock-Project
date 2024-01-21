@@ -1,21 +1,20 @@
 h1 {
   text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 30px;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 25px;
   font-style: normal;
   margin-top: 20px;
   margin-bottom: 35px;
 }
 
 .main-container {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   color: rgb(76, 76, 79);
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: white;
   padding: 25px;
   box-shadow: 7px 7px 3px rgba(182, 181, 181, 0.5);
@@ -36,7 +35,7 @@ select {
   background-color: rgb(122, 122, 127);
   color: white;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .paris-container,
 .los-angeles-container,
@@ -54,7 +53,7 @@ select {
 }
 .city {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
   margin-bottom: 15px;
 }
@@ -68,17 +67,17 @@ select {
 }
 .time {
   font-size: 37px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 20px;
   margin-left: 45px;
 }
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(44, 45, 46);
 }
 footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Lato", sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   max-width: 600px;
   margin: 0 auto;
